@@ -62,5 +62,3 @@ def determine_year(license_plate):
             return 1996
         else:
             return "<1995"
-
-print(determine_year("KIA 976"))
