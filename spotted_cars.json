@@ -1,0 +1,44 @@
+{
+  "885742833863110746": [
+    {
+      "location": "Vicente Lopez, Buenos Aires",
+      "brand": "BMW",
+      "model": "M3",
+      "year": 2009,
+      "license_plate": "HWD 669",
+      "photo": "https://cdn.discordapp.com/attachments/1071916034824622181/1072279572571226223/D_NQ_NP_601655-MLA45131746297_032021-O.webp",
+      "id": "03e424c8-9f94-45ed-b34e-27211dfc15d7"
+    },
+    {
+      "location": "San Isidro, Buenos Aires",
+      "brand": "Volkswagen",
+      "model": "Gol Power 1.9",
+      "year": 2008,
+      "license_plate": "HMZ 976",
+      "photo": "https://cdn.discordapp.com/attachments/1071916034824622181/1072282581464256572/IMG_20230206_192449930.jpg",
+      "id": "f6ab3e4a-9a22-43fc-9ecb-05ad49b5832e"
+    }
+  ],
+  "695460207970484304": [
+    {
+      "location": "Carapachay, Buenos Aires",
+      "brand": "BMW",
+      "model": "118i",
+      "year": 2017,
+      "license_plate": "AD 050 JY",
+      "photo": "https://cdn.discordapp.com/attachments/1072298855841939546/1072299341747847280/20230204_125023.jpg",
+      "id": "9ae42c95-e8fd-4f70-a83c-16c5df39ac39"
+    }
+  ],
+  "429344839381942305": [
+    {
+      "location": "Carapachay, Buenos Aires",
+      "brand": "Lada",
+      "model": "2107",
+      "year": "<1995",
+      "license_plate": "SZQ 639",
+      "photo": "https://cdn.discordapp.com/attachments/1072300868629700608/1072304314103635978/lada_laika_2107.JPG",
+      "id": "525affe6-425a-4c55-beea-3f60805de6e9"
+    }
+  ]
+}
