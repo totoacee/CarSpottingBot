@@ -23,7 +23,7 @@ async def on_ready():
     await bot.change_presence(activity=discord.Game(name="$spot - $cars - $help"))
 
     #UPDATE NOTIFICATION
-    user = await bot.get_user_id(885742833863110746)
+    user = await bot.fetch_user(885742833863110746)
     await user.send("Bot actualizado")
 
 
