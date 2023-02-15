@@ -22,6 +22,11 @@ async def on_ready():
     print(f'{bot.user} ha iniciado sesión.')
     await bot.change_presence(activity=discord.Game(name="$spot - $cars - $help"))
 
+    #UPDATE NOTIFICATION
+    user = await bot.get_user_id(885742833863110746)
+    await user.send("Bot actualizado")
+
+
 # WELCOME SYSTEM
 @bot.event
 async def on_member_join(member):
