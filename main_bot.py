@@ -290,7 +290,7 @@ async def embed(ctx):
 @bot.command(name="ping")
 @commands.has_role("Owner")
 async def embed(ctx):
-    await ctx.channel.send("Pang!")
+    await ctx.channel.send("Pong!")
 
 load_dotenv()
 bot.run(os.environ["TOKEN"])
