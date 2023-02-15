@@ -273,7 +273,7 @@ async def reset(ctx):
         cars[user_id] = []
         with open(file_name, "w") as f:
             json.dump(cars, f)
-        response = f"La colección de autos del usuario {bot.get_user(int(user_id))} fue reiniciada."
+        response = f"La colección de autos de {bot.get_user(int(user_id))} fue reiniciada."
     else:
         response = f"El usuario {bot.get_user(int(user_id))} no tiene ninguna colección de autos."
     
