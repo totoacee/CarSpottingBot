@@ -287,5 +287,10 @@ async def embed(ctx):
     await ctx.channel.send(embed=dsEmbed())
     await ctx.message.delete()
 
+@bot.command(name="ping")
+@commands.has_role("Owner")
+async def embed(ctx):
+    await ctx.channel.send("Pang!")
+
 load_dotenv()
 bot.run(os.environ["TOKEN"])
